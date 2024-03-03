@@ -2,12 +2,92 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-h1 {
-    color: blue;
-    background-color: whitesmoke;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    color: pink;
-    border: 1px solid;
+header{
+    position: relative;
+    background-color: rgb(230, 248, 234);
+    margin-bottom: 10px;
+    background: url(/Projekt-01-vizitka/Background.png);
+    background-position: center center;
+}
+
+h1 {
+    color:rgb(129, 103, 103);
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    float: right;
+    display: inline;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+img {
+    margin: 20px;
+    border-radius: 50%;
+    width: 30%;
+    border: 2px solid rgb(129, 103, 103);
+}
+
+.menu{
+    list-style: none;
+    background-color:rgb(130, 115, 115);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline-block;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a:hover {
+    background-color:rgb(161, 145, 145);
+}
+
+
+
+h2 {
+    color: white;
+    background-color:rgb(130, 115, 115);
+    font-size: 32px;
+    margin: 0px;
+}
+
+section{
+
+    background-color:rgb(240, 251, 249);
+    margin-bottom: 10px;
+
+}
+
+
+footer {
+    background-color:rgb(240, 251, 249);
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+color: rgb(133, 131, 131);
+}
+
+footer a:visited {
+color: rgb(204, 198, 198);
 }
